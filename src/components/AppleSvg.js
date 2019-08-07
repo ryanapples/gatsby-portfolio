@@ -7,6 +7,11 @@ const Svg = styled.svg`
   position: absolute;
   bottom: 30px;
   right: 30px;
+  cursor: pointer;
+  transition: transform 0.8s;
+  &:hover {
+    transform: translate(0, -20px);
+  }
 
   .cls-1 {
     enable-background: new 0 0 401.66 401.66;
