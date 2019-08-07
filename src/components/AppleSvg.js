@@ -1,14 +1,20 @@
 import React from "react"
+
 import styled from "styled-components"
+import Media from "../utility/media"
 
 const Svg = styled.svg`
   width: 70px;
   height: 70px;
   position: absolute;
-  bottom: 30px;
-  right: 30px;
+  bottom: 20px;
+  right: 10px;
   cursor: pointer;
   transition: transform 0.8s;
+  ${Media.tablet`
+    bottom: 25px;
+    right: 20px;
+  `}
   &:hover {
     transform: translate(0, -20px);
   }
