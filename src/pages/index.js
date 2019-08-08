@@ -7,7 +7,7 @@ import ComingSoon from "../components/coming-soon"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Ryan Apples" />
+    <SEO title="Coming Soon" />
     <ComingSoon />
   </Layout>
 )
