@@ -1,9 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 
 import styled from "styled-components"
 import Media from "../utility/media"
 
 import AppleSvg from "../components/AppleSvg"
+import Giphy from "./Giphy"
 
 const Section = styled.section`
   width: 100%;
@@ -43,16 +44,21 @@ const Paragraph = styled.p`
   `}
 `
 
-export default () => (
-  <Section>
-    <AppleSvg />
-    <Heading>Coming soon</Heading>
-    <Paragraph>
-      A portfolio built w/{" "}
-      <span role="img" aria-label="emoji">
-        💜
-      </span>
-      + Gatsby
-    </Paragraph>
-  </Section>
-)
+export default () => {
+  const [isToggled, toggleGiphy] = useState(false)
+
+  return (
+    <Section>
+      <Heading>Coming soon</Heading>
+      <Paragraph>
+        A portfolio built w/{" "}
+        <span role="img" aria-label="emoji">
+          💜
+        </span>
+        + Gatsby
+      </Paragraph>
+      <AppleSvg toggleGiphy={toggleGiphy} isToggled={isToggled} />
+      <Giphy isToggled={isToggled} />
+    </Section>
+  )
+}
