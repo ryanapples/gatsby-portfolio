@@ -1,10 +1,10 @@
 import React, { useState } from "react"
 
-import styled from "styled-components"
-import Media from "../utility/media"
-
 import AppleSvg from "../components/AppleSvg"
 import Giphy from "./Giphy"
+
+import styled from "styled-components"
+import Media from "../utility/media"
 
 const Section = styled.section`
   width: 100%;
