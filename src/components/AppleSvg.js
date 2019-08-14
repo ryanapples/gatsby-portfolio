@@ -47,7 +47,6 @@ const Svg = styled.svg`
 `
 
 export default props => {
-  console.log("props", props)
   return (
     <SvgContainer onClick={() => props.toggleGiphy(!props.isToggled)}>
       <Svg
