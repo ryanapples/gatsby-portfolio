@@ -20,7 +20,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💡 Learning React
 
-Gatsby utilizes React as its templating language. Find more information and documentation on their [Github](https://github.com/facebook/react/) or the [React website](https://reactjs.org/).
+Gatsby utilizes React as its templating language. Find more information and documentation on the [Github repo](https://github.com/facebook/react/) or the [React website](https://reactjs.org/).
 
 - **React:** A code library (built with JavaScript) for building user interfaces. It’s the framework that Gatsby uses to build pages and structure content.
 
