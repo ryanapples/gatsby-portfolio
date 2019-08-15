@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://www.ryanapples.io">
     <img alt="Gatsby" src="https://i.imgur.com/NN8RMIi.png" width="100" />
   </a>
 </p>
