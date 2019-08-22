@@ -8,7 +8,7 @@
   ryanapples.io
 </h1>
 
-Portfolio built with a mixture of 💜+ boba + Gatsby. Currently, the site is in a state of construction, but there is an abundance of exciting components and features arriving in the near future. Stay tuned!
+Personal portfolio built with a mixture of 💜+ boba + Gatsby. Currently, the site is in a state of construction, but there is a good amount of exciting components and features arriving in the near future. Stay tuned!
 
 ## 🎓 Learning Gatsby
 
